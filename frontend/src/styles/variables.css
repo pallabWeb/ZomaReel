@@ -1,0 +1,23 @@
+/* Centralized theme variables */
+:root{
+  --bg: #f6f7fb;
+  --card: #ffffff;
+  --text: #0f1723;
+  --muted: #6b7280;
+  --accent: #2563eb;
+  --accent-contrast: #ffffff;
+  --radius: 12px;
+  --shadow: 0 6px 18px rgba(12,18,27,0.06);
+}
+
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg: #0b1220;
+    --card: #0f1723;
+    --text: #e6eef8;
+    --muted: #9aa6b2;
+    --accent: #3b82f6;
+    --accent-contrast: #0b1220;
+    --shadow: 0 8px 30px rgba(2,6,23,0.6);
+  }
+}
